@@ -1,8 +1,7 @@
 function formatMessage(message, maxLength) {
-    // message.slice(0, maxLength);
-    // if () {
-        
-    // } else {
-        
-    // }
+        if (message.length === maxLength) {
+        return message.slice(0, maxLength) + "...";
+    } else {
+        return message;
+    }
 }
